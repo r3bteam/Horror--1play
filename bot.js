@@ -33,6 +33,7 @@ client.on('error', console.error);
 
 
 client.on('ready', () => console.log('Yo this ready!'));
+  client.user.setActivity('HP FOR EVER', {type: 'LISTENING'});
 
 
 
