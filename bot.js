@@ -6,7 +6,7 @@ client.on('ready', ()=> {
     console.log('Ready!')
 })
  Music.start(client, {
-    prefix: "!", // البرفكس هنا
+    prefix: "1", // البرفكس هنا
     youtubeKey: 'AIzaSyDIv8O9OwZdoTaghK3_SQmyGcQFzkXMW6E', //هنا ال yt v3 api key
     global: false, // يكون للسيرفرات ؟ خليه false, يكون queue مشترك خليه true            
     maxQueueSize: 50, // اقصى حجم لل queue        
